@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files     = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  # Replace the original BraintreeDropIn dependency with your fork
+  # Using your fork of BraintreeDropIn
   s.dependency 'BraintreeDropIn', :git => 'https://github.com/samcheneytlc/braintree-ios-drop-in.git', :tag => '9.4.0'
   s.dependency 'Braintree/PayPal', '~> 5.6.3'
   s.dependency 'Braintree/ApplePay', '~> 5.6.3'
